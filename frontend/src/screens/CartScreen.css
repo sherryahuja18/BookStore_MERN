@@ -1,0 +1,75 @@
+/* CartScreen.css */
+
+/* Add some spacing to the top of the page */
+h1 {
+  margin-top: 20px;
+  text-align: start;
+}
+
+/* Style each cart item with a linear gradient background */
+.list-group-item {
+  border: 1px solid #ddd;
+  margin-bottom: 10px;
+  padding: 20px;
+  background: linear-gradient(
+    to right,
+    rgba(76, 175, 80, 0.7),
+    rgba(33, 150, 243, 0.3)
+  );
+}
+
+#main-div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.list-group-item img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+  margin: 0 auto; /* Center the image horizontally */
+}
+
+/* Style the quantity and price information */
+.list-group-item div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Adjust the spacing of buttons */
+.list-group-item button {
+  margin-right: 10px;
+}
+
+/* Style the subtotal and checkout section */
+.card {
+  margin-top: 20px;
+}
+
+.card-body {
+  padding: 20px;
+}
+
+.card h3 {
+  margin-bottom: 20px;
+}
+
+/* Center the 'Proceed to Checkout' button */
+.d-grid {
+  text-align: center;
+}
+
+/* Disable button styling */
+.btn-light {
+  border: 1px solid #ddd;
+  background-color: #fff;
+  color: #000;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+}
